@@ -998,6 +998,8 @@ func isPrimitiveTypeValid(primitiveType string) bool {
 		primitiveType == "uint32[]" ||
 		primitiveType == "uint64" ||
 		primitiveType == "uint64[]" ||
+		primitiveType == "uint96" ||
+		primitiveType == "uint96[]" ||
 		primitiveType == "uint128" ||
 		primitiveType == "uint128[]" ||
 		primitiveType == "uint256" ||
